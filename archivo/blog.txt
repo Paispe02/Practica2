@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog de Laurel</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<!-- Menú de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="img/logo.png" alt="Logo" style="height: 40px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="blog.html">Blog <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Contenido del blog -->
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="blog-post">
+        <h2 class="blog-post-title">El significado del Laurel en la cultura mediterránea</h2>
+        <p class="blog-post-meta">1 de Enero, 2024 por <a href="#">Autor</a></p>
+        <img src="img/laurel.jpg" class="img-fluid" alt="Laurel">
+        <p>El laurel, conocido científicamente como Laurus nobilis, es una planta que ha tenido un papel importante en la historia y la cultura del Mediterráneo. Desde la antigüedad, el laurel ha sido símbolo de sabiduría y gloria...</p>
+        <a href="entrada.html" class="btn btn-primary">Leer más</a>
+      </div>
+    </div>
+    <!-- Sidebar u otros contenidos -->
+    <div class="col-md-4">
+      <!-- Aquí puede ir contenido adicional como un sidebar -->
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
